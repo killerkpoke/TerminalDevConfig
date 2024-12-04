@@ -278,7 +278,6 @@ indent = { tab-width = 2, unit = "  " }
 [language.debugger]
 name = "node-debug2"
 transport = "stdio"
-# args consisting of cmd (node) and path to adapter should be added to user's configuration
 quirks = { absolute-paths = true }
 
 [[language.debugger.templates]]
@@ -407,7 +406,6 @@ shebangs = ["python"]
 roots = ["pyproject.toml", "setup.py", "poetry.lock", "pyrightconfig.json"]
 comment-token = "#"
 language-servers = ["ruff", "jedi", "pylsp"]
-# TODO: pyls needs utf-8 offsets
 indent = { tab-width = 4, unit = "    " }
 
 [[grammar]]
