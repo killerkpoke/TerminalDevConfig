@@ -177,7 +177,6 @@ auto-format = true
 comment-token = "//"
 block-comment-tokens = { start = "/*", end = "*/" }
 language-servers = [ "gopls", "golangci-lint-lsp" ]
-# TODO: gopls needs utf-8 offsets?
 indent = { tab-width = 4, unit = "\t" }
 
 [language.debugger]
