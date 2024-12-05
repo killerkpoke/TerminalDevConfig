@@ -373,7 +373,7 @@ name = "html"
 scope = "text.html.basic"
 injection-regex = "html"
 file-types = ["html", "htm", "shtml", "xhtml", "xht", "jsp", "asp", "aspx", "jshtm", "volt", "rhtml", "cshtml"]
-block-comment-tokens = { start = "<!--", end = "-->" }
+block-comment-tokens = { start = "< !--", end = "-->" }
 language-servers = [ "vscode-html-language-server", "superhtml" ]
 auto-format = true
 indent = { tab-width = 2, unit = "  " }
@@ -382,20 +382,6 @@ indent = { tab-width = 2, unit = "  " }
 name = "html"
 source = { git = "https://github.com/tree-sitter/tree-sitter-html", rev = "29f53d8f4f2335e61bf6418ab8958dac3282077a" }
 
-
-[[language]]
-name = "html"
-scope = "text.html.basic"
-injection-regex = "html"
-file-types = ["html", "htm", "shtml", "xhtml", "xht", "jsp", "asp", "aspx", "jshtm", "volt", "rhtml", "cshtml"]
-block-comment-tokens = { start = "<!--", end = "-->" }
-language-servers = [ "vscode-html-language-server", "superhtml" ]
-auto-format = true
-indent = { tab-width = 2, unit = "  " }
-
-[[grammar]]
-name = "html"
-source = { git = "https://github.com/tree-sitter/tree-sitter-html", rev = "29f53d8f4f2335e61bf6418ab8958dac3282077a" }
 
 [[language]]
 name = "python"
@@ -436,7 +422,7 @@ scope = "source.vue"
 injection-regex = "vue"
 file-types = ["vue"]
 roots = ["package.json"]
-block-comment-tokens = { start = "<!--", end = "-->" }
+block-comment-tokens = { start = "< !--", end = "-->" }
 indent = { tab-width = 2, unit = "  " }
 language-servers = [ "vuels" ]
 
@@ -465,7 +451,7 @@ injection-regex = "zig"
 file-types = ["zig", "zon"]
 roots = ["build.zig"]
 auto-format = true
-comment-tokens = ["//", "///", "//!"]
+comment-token = "//"
 language-servers = [ "zls" ]
 indent = { tab-width = 4, unit = "    " }
 formatter = { command = "zig" , args = ["fmt", "--stdin"] }
