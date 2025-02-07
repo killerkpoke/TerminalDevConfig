@@ -7,8 +7,12 @@ and [Micro text editor](https://micro-editor.github.io) for quick file changes.
 Download or create the .wezterm.lua file into the home directory. if you created it then copy/paste the code to the lua file.
 
 ## Micro config
-Using the grovbox default color scheme:
-set colorscheme grovbox
+Opening micro and using the Ctrl+E combination for type into the shell and set the following:
+- set colorscheme grovbox
+- set softwrap true
+- set ruler true
+- set autoindent true
+
 
 ## Helix Config
 ### Base config and theme
