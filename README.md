@@ -16,12 +16,17 @@ Opening micro and using the Ctrl+E combination for type into the shell and set t
 
 ## Helix Config
 ### Base config and theme
-After installation, create a config.toml, like the following path:
+After installation, create a config.toml (or download this one) like the following path:
 <code>$ ~/.config/helix/config.toml</code>
 And paste the code from this repo to the newely created config.toml file.
 
+For the programming language also create (or download) the languages.toml and place it to the ~/.config/helix folder as well.
 
-### Commands for installing LSPs 
+### Commands for installing LSPs
+
+TODO: Create a bash script to do it automatically.
+
+Using the terminal, to install globally the following LSPs (The list will be extended in the future...):
 - <code>npm i -g vscode-langservers-extracted</code>
 - <code>npm install -g typescript typescript-language-server</code>
 - <code>npm install -g @microsoft/compose-language-service</code>
