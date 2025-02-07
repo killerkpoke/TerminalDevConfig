@@ -14,9 +14,7 @@ vscode-json-language-server = { command = "vscode-json-language-server", args = 
 vuels = { command = "vue-language-server", args = ["--stdio"], config = { typescript = { tsdk = "node_modules/typescript/lib/" } } }
 yaml-language-server = { command = "yaml-language-server", args = ["--stdio"] }
 zls = { command = "zls" }
-</code>
 
-<code>
 [language-server.lua-language-server]
 command = "lua-language-server"
 
