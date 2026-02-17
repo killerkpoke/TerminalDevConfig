@@ -3,6 +3,10 @@ Using [Wezterm](https://wezterm.org/index.html) as terminal emulator.
 [Helix IDE](https://helix-editor.com) in the terminal for programming, 
 and [Micro text editor](https://micro-editor.github.io) for quick file changes.
 
+## Fonts
+For fonts, i am using [Miracode](https://github.com/IdreesInc/Miracode), if want more minecraft and fun style, use [Monocraft](https://github.com/IdreesInc/Monocraft)
+
+
 ## Wezterm config
 Download or create the .wezterm.lua file into the home directory. if you created it then copy/paste the code to the lua file.
 
